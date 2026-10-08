@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'XOF', { apiKey: 'art_live_...' });
 {
   bank: 'bceao',
   name: 'Central Bank of West African States (BCEAO)',
-  rate_date: '2026-10-05',   // Central Bank of West African States (BCEAO)'s own publication date
+  rate_date: '2026-10-08',   // Central Bank of West African States (BCEAO)'s own publication date
   source: 'USD',
   target: 'XOF',
-  rate: 585.47,
+  rate: 586.41,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -113,9 +113,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'bceao',
   name: 'Central Bank of West African States (BCEAO)',
-  rate_date: '2026-10-05',
+  rate_date: '2026-10-08',
   rates: [
-    { "base": "USD", "quote": "XOF", "type": "reference", "value": 585.47 },
+    { "base": "USD", "quote": "XOF", "type": "reference", "value": 586.41 },
     // … the rest of the published table (27 currencies vs XOF)
   ],
   disclaimer: '…'
@@ -155,7 +155,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'bceao-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'XOF', from: '2026-01-01', to: '2026-10-05' },
+  { source: 'USD', target: 'XOF', from: '2026-01-01', to: '2026-10-08' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -168,11 +168,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'XOF',
   from: '2026-01-01',
-  to: '2026-10-05',
+  to: '2026-10-08',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-10-05', rate: 585.47, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-10-08', rate: 586.41, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
@@ -221,6 +221,7 @@ curl "https://allratestoday.com/api/v1/central-bank/bceao/latest?format=xml&api_
 
 - MCP server: `npx -y @allratestoday/central-bank-mcp` (stdio) or the hosted endpoint `https://allratestoday.com/api/mcp` — tools for official rates, history, cross-bank comparison and publication calendars
 - Already using the general SDK or MCP server? Since 2026-10-01 [`@allratestoday/sdk`](https://www.npmjs.com/package/@allratestoday/sdk) 1.4+ has `officialRates('bceao')` and [`@allratestoday/mcp-server`](https://www.npmjs.com/package/@allratestoday/mcp-server) 0.6+ has a `get_official_rates` tool — both return this source's latest table with no key, so you can add it without a second dependency
+- Claude Code plugin (no key): `/plugin marketplace add AllRates-Today/claude-code-plugin` then `/plugin install allratestoday@allratestoday` — bundles both MCP servers plus an `/official-rate bceao ...` command
 - Machine-readable site guide: [llms.txt](https://allratestoday.com/llms.txt) · [for-ai-agents](https://allratestoday.com/for-ai-agents/)
 
 ## ⚖️ Published vs derived rates
