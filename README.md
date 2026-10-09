@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/bceao-exchange-rate.svg)](https://github.com/AllRates-Today/bceao-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/bceao-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![USD/XOF today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fbceao%3Fsource%3DUSD%26target%3DXOF&query=%24.rate&label=USD%2FXOF%20published%20by%20Central%20Bank%20of%20West%20African%20States%20(BCEAO)&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/bceao/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fbceao%3Fsource%3DUSD%26target%3DXOF&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/bceao/)
 
 **Official Central Bank of West African States (BCEAO) (the eight WAEMU countries) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers Central Bank of West African States (BCEAO) itself prints, every business day.**
 
@@ -32,6 +34,46 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full Central Bank of West African States (BCEAO) table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-08** by Central Bank of West African States (BCEAO) — 27 rates. Updated 2026-10-08.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AED | XOF | reference | 159.676 |
+| AUD | XOF | reference | 407.17 |
+| BRL | XOF | reference | 116.89 |
+| CAD | XOF | reference | 411.18 |
+| CHF | XOF | reference | 703.36 |
+| CNY | XOF | reference | 87.49 |
+| CZK | XOF | reference | 26.88 |
+| DKK | XOF | reference | 87.77 |
+| EUR | XOF | reference | 655.957 |
+| GBP | XOF | reference | 774.47 |
+| HKD | XOF | reference | 74.72 |
+| HUF | XOF | reference | 1.79 |
+| ILS | XOF | reference | 190.56 |
+| INR | XOF | reference | 6.06 |
+| JPY | XOF | reference | 3.7049 |
+| KRW | XOF | reference | 0.44 |
+| KWD | XOF | reference | 1902.998 |
+| NOK | XOF | reference | 61.21 |
+| NZD | XOF | reference | 327.75 |
+| PLN | XOF | reference | 149.92 |
+| SAR | XOF | reference | 156.375 |
+| SEK | XOF | reference | 58.6 |
+| SGD | XOF | reference | 457.43 |
+| THB | XOF | reference | 17.41 |
+| TRY | XOF | reference | 11.92 |
+| USD | XOF | reference | 586.41 |
+| ZAR | XOF | reference | 35.219 |
+
+Source: [Official rates published by BCEAO, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bceao/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
