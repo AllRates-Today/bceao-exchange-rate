@@ -42,34 +42,34 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-09** by Central Bank of West African States (BCEAO) — 24 rates. Updated 2026-10-12.
+Published **2026-10-12** by Central Bank of West African States (BCEAO) — 24 rates. Updated 2026-10-13.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | XOF | reference | 408.65 |
-| BRL | XOF | reference | 116.96 |
-| CAD | XOF | reference | 411.46 |
-| CHF | XOF | reference | 704.35 |
-| CNY | XOF | reference | 87.47 |
-| CZK | XOF | reference | 26.92 |
-| DKK | XOF | reference | 87.75 |
+| AUD | XOF | reference | 409.15 |
+| BRL | XOF | reference | 117.52 |
+| CAD | XOF | reference | 411.36 |
+| CHF | XOF | reference | 704.42 |
+| CNY | XOF | reference | 87.66 |
+| CZK | XOF | reference | 26.89 |
+| DKK | XOF | reference | 87.76 |
 | EUR | XOF | reference | 655.957 |
-| GBP | XOF | reference | 773.87 |
-| HKD | XOF | reference | 74.59 |
+| GBP | XOF | reference | 776.48 |
+| HKD | XOF | reference | 74.76 |
 | HUF | XOF | reference | 1.8 |
-| ILS | XOF | reference | 191.46 |
-| INR | XOF | reference | 6.05 |
-| JPY | XOF | reference | 3.6989 |
+| ILS | XOF | reference | 191.13 |
+| INR | XOF | reference | 6.13 |
+| JPY | XOF | reference | 3.6991 |
 | KRW | XOF | reference | 0.44 |
-| NOK | XOF | reference | 61.22 |
-| NZD | XOF | reference | 328.62 |
-| PLN | XOF | reference | 149.64 |
-| SEK | XOF | reference | 58.74 |
-| SGD | XOF | reference | 457.18 |
-| THB | XOF | reference | 17.46 |
-| TRY | XOF | reference | 11.9 |
-| USD | XOF | reference | 585.36 |
-| ZAR | XOF | reference | 35.405 |
+| NOK | XOF | reference | 61.33 |
+| NZD | XOF | reference | 328.5 |
+| PLN | XOF | reference | 149.59 |
+| SEK | XOF | reference | 58.59 |
+| SGD | XOF | reference | 458.26 |
+| THB | XOF | reference | 17.45 |
+| TRY | XOF | reference | 11.89 |
+| USD | XOF | reference | 586.67 |
+| ZAR | XOF | reference | 35.468 |
 
 Source: [Official rates published by BCEAO, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bceao/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
