@@ -1,6 +1,6 @@
 {
   "name": "bceao-exchange-rate",
-  "version": "1.3.12",
+  "version": "1.3.13",
   "description": "Official Central Bank of West African States (BCEAO) (eight WAEMU countries) daily exchange rates — 27 currencies vs XOF, history since 2014. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "bceao",
@@ -19,6 +19,12 @@
     "forex",
     "fx",
     "xof",
+    "currency-api",
+    "currency-exchange-rates",
+    "forex-api",
+    "currency-conversion",
+    "currency-exchange",
+    "currency-rates",
     "central-bank",
     "official-rates",
     "eight-waemu-countries",
