@@ -42,37 +42,34 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-15** by Central Bank of West African States (BCEAO) — 27 rates. Updated 2026-10-15.
+Published **2026-10-16** by Central Bank of West African States (BCEAO) — 24 rates. Updated 2026-10-16.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | XOF | reference | 159.362 |
-| AUD | XOF | reference | 404.46 |
-| BRL | XOF | reference | 115.73 |
-| CAD | XOF | reference | 411.96 |
-| CHF | XOF | reference | 704.95 |
-| CNY | XOF | reference | 87.47 |
-| CZK | XOF | reference | 26.94 |
-| DKK | XOF | reference | 87.75 |
+| AUD | XOF | reference | 405.64 |
+| BRL | XOF | reference | 114.68 |
+| CAD | XOF | reference | 411.65 |
+| CHF | XOF | reference | 707.46 |
+| CNY | XOF | reference | 87.18 |
+| CZK | XOF | reference | 26.97 |
+| DKK | XOF | reference | 87.76 |
 | EUR | XOF | reference | 655.957 |
-| GBP | XOF | reference | 775.27 |
-| HKD | XOF | reference | 74.58 |
-| HUF | XOF | reference | 1.8 |
-| ILS | XOF | reference | 188.66 |
-| INR | XOF | reference | 6.16 |
-| JPY | XOF | reference | 3.7047 |
-| KRW | XOF | reference | 0.43 |
-| KWD | XOF | reference | 1899.265 |
-| NOK | XOF | reference | 61.58 |
-| NZD | XOF | reference | 327.78 |
+| GBP | XOF | reference | 777.34 |
+| HKD | XOF | reference | 74.27 |
+| HUF | XOF | reference | 1.81 |
+| ILS | XOF | reference | 188.37 |
+| INR | XOF | reference | 6.14 |
+| JPY | XOF | reference | 3.6889 |
+| KRW | XOF | reference | 0.44 |
+| NOK | XOF | reference | 61.74 |
+| NZD | XOF | reference | 330.16 |
 | PLN | XOF | reference | 150.1 |
-| SAR | XOF | reference | 156.069 |
-| SEK | XOF | reference | 58.69 |
-| SGD | XOF | reference | 456.19 |
-| THB | XOF | reference | 17.45 |
-| TRY | XOF | reference | 11.84 |
-| USD | XOF | reference | 585.26 |
-| ZAR | XOF | reference | 35.348 |
+| SEK | XOF | reference | 58.86 |
+| SGD | XOF | reference | 455.68 |
+| THB | XOF | reference | 17.44 |
+| TRY | XOF | reference | 11.77 |
+| USD | XOF | reference | 582.92 |
+| ZAR | XOF | reference | 35.471 |
 
 Source: [Official rates published by BCEAO, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bceao/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
@@ -266,7 +263,7 @@ curl "https://allratestoday.com/api/v1/central-bank/bceao/latest?format=xml&api_
 - MCP server: `npx -y @allratestoday/central-bank-mcp` (stdio) or the hosted endpoint `https://allratestoday.com/api/mcp` — tools for official rates, history, cross-bank comparison and publication calendars
 - Already using the general SDK or MCP server? Since 2026-10-01 [`@allratestoday/sdk`](https://www.npmjs.com/package/@allratestoday/sdk) 1.4+ has `officialRates('bceao')` and [`@allratestoday/mcp-server`](https://www.npmjs.com/package/@allratestoday/mcp-server) 0.6+ has a `get_official_rates` tool — both return this source's latest table with no key, so you can add it without a second dependency
 - Claude Code plugin (no key): `/plugin marketplace add AllRates-Today/claude-code-plugin` then `/plugin install allratestoday@allratestoday` — bundles both MCP servers plus an `/official-rate bceao ...` command
-- Need dated tables or history for an evaluation? Agents can self-issue a trial key with no signup: `POST https://allratestoday.com/api/agent/keys` (send `Content-Type: application/json`) returns a 100-call key valid 7 days; the MCP servers expose it as `request_trial_key`
+- Evaluating? Agents can self-issue a trial key with no signup: `POST https://allratestoday.com/api/agent/keys` (send `Content-Type: application/json`) returns a 100-call key valid 7 days that covers the free-plan methods (latest table, pairs); dated tables and history need a [paid plan](https://allratestoday.com/pricing/). The MCP servers expose it as `request_trial_key`
 - Machine-readable site guide: [llms.txt](https://allratestoday.com/llms.txt) · [for-ai-agents](https://allratestoday.com/for-ai-agents/)
 
 ## ⚖️ Published vs derived rates
