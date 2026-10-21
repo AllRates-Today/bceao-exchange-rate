@@ -37,7 +37,7 @@ const r = await fetch('https://allratestoday.com/api/open/central-bank/bceao').t
 console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
 ```
 
-The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables and history.
+The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and is free to use with a visible, followable link where the rates are shown: `<a href="https://allratestoday.com">Exchange rates by AllRatesToday</a>` (terms: <https://allratestoday.com/terms/#attribution>). The client below uses the keyed API, which adds point-in-time tables and history; with a key the link is appreciated, not required.
 
 ## 📈 Latest published table
 
@@ -47,37 +47,37 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-19 by Central Bank of West African States (BCEAO) — 27 rates. Updated 2026-10-20.</summary>
+<summary>Table as text: published 2026-10-21 by Central Bank of West African States (BCEAO) — 27 rates. Updated 2026-10-21.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | XOF | reference | 159.121 |
-| AUD | XOF | reference | 408.24 |
-| BRL | XOF | reference | 115.83 |
-| CAD | XOF | reference | 415.22 |
-| CHF | XOF | reference | 708.3 |
-| CNY | XOF | reference | 87.47 |
-| CZK | XOF | reference | 26.95 |
+| AED | XOF | reference | 158.993 |
+| AUD | XOF | reference | 410.72 |
+| BRL | XOF | reference | 116.24 |
+| CAD | XOF | reference | 415.72 |
+| CHF | XOF | reference | 708.68 |
+| CNY | XOF | reference | 87.46 |
+| CZK | XOF | reference | 27.04 |
 | DKK | XOF | reference | 87.76 |
 | EUR | XOF | reference | 655.957 |
-| GBP | XOF | reference | 779 |
-| HKD | XOF | reference | 74.46 |
-| HUF | XOF | reference | 1.81 |
-| ILS | XOF | reference | 188.01 |
-| INR | XOF | reference | 6.16 |
-| JPY | XOF | reference | 3.6928 |
+| GBP | XOF | reference | 782.53 |
+| HKD | XOF | reference | 74.41 |
+| HUF | XOF | reference | 1.8 |
+| ILS | XOF | reference | 188.9 |
+| INR | XOF | reference | 6.18 |
+| JPY | XOF | reference | 3.6984 |
 | KRW | XOF | reference | 0.44 |
-| KWD | XOF | reference | 1897.309 |
-| NOK | XOF | reference | 62.14 |
-| NZD | XOF | reference | 331.43 |
-| PLN | XOF | reference | 150.06 |
-| SAR | XOF | reference | 155.832 |
-| SEK | XOF | reference | 59.07 |
-| SGD | XOF | reference | 456.89 |
-| THB | XOF | reference | 17.42 |
-| TRY | XOF | reference | 11.79 |
-| USD | XOF | reference | 584.37 |
-| ZAR | XOF | reference | 35.559 |
+| KWD | XOF | reference | 1895.789 |
+| NOK | XOF | reference | 62.4 |
+| NZD | XOF | reference | 332.38 |
+| PLN | XOF | reference | 150.33 |
+| SAR | XOF | reference | 155.708 |
+| SEK | XOF | reference | 59.11 |
+| SGD | XOF | reference | 457.18 |
+| THB | XOF | reference | 17.39 |
+| TRY | XOF | reference | 11.77 |
+| USD | XOF | reference | 583.9 |
+| ZAR | XOF | reference | 35.663 |
 
 </details>
 
