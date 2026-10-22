@@ -47,37 +47,37 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-21 by Central Bank of West African States (BCEAO) — 27 rates. Updated 2026-10-21.</summary>
+<summary>Table as text: published 2026-10-22 by Central Bank of West African States (BCEAO) — 27 rates. Updated 2026-10-22.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | XOF | reference | 158.993 |
-| AUD | XOF | reference | 410.72 |
-| BRL | XOF | reference | 116.24 |
-| CAD | XOF | reference | 415.72 |
-| CHF | XOF | reference | 708.68 |
-| CNY | XOF | reference | 87.46 |
+| AED | XOF | reference | 159.405 |
+| AUD | XOF | reference | 410.49 |
+| BRL | XOF | reference | 115.95 |
+| CAD | XOF | reference | 417.14 |
+| CHF | XOF | reference | 712.15 |
+| CNY | XOF | reference | 87.71 |
 | CZK | XOF | reference | 27.04 |
 | DKK | XOF | reference | 87.76 |
 | EUR | XOF | reference | 655.957 |
-| GBP | XOF | reference | 782.53 |
-| HKD | XOF | reference | 74.41 |
-| HUF | XOF | reference | 1.8 |
-| ILS | XOF | reference | 188.9 |
-| INR | XOF | reference | 6.18 |
-| JPY | XOF | reference | 3.6984 |
+| GBP | XOF | reference | 783.05 |
+| HKD | XOF | reference | 74.67 |
+| HUF | XOF | reference | 1.79 |
+| ILS | XOF | reference | 188.36 |
+| INR | XOF | reference | 6.17 |
+| JPY | XOF | reference | 3.7277 |
 | KRW | XOF | reference | 0.44 |
-| KWD | XOF | reference | 1895.789 |
-| NOK | XOF | reference | 62.4 |
-| NZD | XOF | reference | 332.38 |
-| PLN | XOF | reference | 150.33 |
-| SAR | XOF | reference | 155.708 |
-| SEK | XOF | reference | 59.11 |
-| SGD | XOF | reference | 457.18 |
-| THB | XOF | reference | 17.39 |
-| TRY | XOF | reference | 11.77 |
-| USD | XOF | reference | 583.9 |
-| ZAR | XOF | reference | 35.663 |
+| KWD | XOF | reference | 1900.695 |
+| NOK | XOF | reference | 62.54 |
+| NZD | XOF | reference | 332.57 |
+| PLN | XOF | reference | 150.12 |
+| SAR | XOF | reference | 156.11 |
+| SEK | XOF | reference | 59.03 |
+| SGD | XOF | reference | 458.23 |
+| THB | XOF | reference | 17.35 |
+| TRY | XOF | reference | 11.8 |
+| USD | XOF | reference | 585.41 |
+| ZAR | XOF | reference | 35.446 |
 
 </details>
 
