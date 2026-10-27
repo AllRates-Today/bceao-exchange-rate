@@ -47,34 +47,36 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-23 by Central Bank of West African States (BCEAO) — 24 rates. Updated 2026-10-26.</summary>
+<summary>Table as text: published 2026-10-26 by Central Bank of West African States (BCEAO) — 26 rates. Updated 2026-10-27.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | XOF | reference | 411.54 |
-| BRL | XOF | reference | 116.13 |
-| CAD | XOF | reference | 418.74 |
-| CHF | XOF | reference | 710.91 |
-| CNY | XOF | reference | 87.86 |
-| CZK | XOF | reference | 26.96 |
+| AUD | XOF | reference | 411.85 |
+| BRL | XOF | reference | 104.91 |
+| CAD | XOF | reference | 417.94 |
+| CHF | XOF | reference | 709.68 |
+| CNY | XOF | reference | 87.93 |
+| CZK | XOF | reference | 26.92 |
 | DKK | XOF | reference | 87.76 |
 | EUR | XOF | reference | 655.957 |
-| GBP | XOF | reference | 783.44 |
-| HKD | XOF | reference | 74.72 |
+| GBP | XOF | reference | 782.58 |
+| HKD | XOF | reference | 74.74 |
 | HUF | XOF | reference | 1.79 |
-| ILS | XOF | reference | 187.74 |
-| INR | XOF | reference | 6.17 |
-| JPY | XOF | reference | 3.7374 |
+| ILS | XOF | reference | 190.36 |
+| INR | XOF | reference | 6.16 |
+| JPY | XOF | reference | 3.7239 |
 | KRW | XOF | reference | 0.44 |
-| NOK | XOF | reference | 62.67 |
-| NZD | XOF | reference | 333.28 |
-| PLN | XOF | reference | 149.27 |
-| SEK | XOF | reference | 58.93 |
-| SGD | XOF | reference | 458.39 |
-| THB | XOF | reference | 17.37 |
+| KWD | XOF | reference | 1903.581 |
+| NOK | XOF | reference | 62.74 |
+| NZD | XOF | reference | 333.06 |
+| PLN | XOF | reference | 148.95 |
+| SAR | XOF | reference | 156.348 |
+| SEK | XOF | reference | 58.89 |
+| SGD | XOF | reference | 457.85 |
+| THB | XOF | reference | 17.34 |
 | TRY | XOF | reference | 11.78 |
-| USD | XOF | reference | 586.04 |
-| ZAR | XOF | reference | 35.309 |
+| USD | XOF | reference | 586.3 |
+| ZAR | XOF | reference | 35.258 |
 
 </details>
 
