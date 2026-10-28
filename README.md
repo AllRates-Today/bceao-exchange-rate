@@ -47,10 +47,11 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-27 by Central Bank of West African States (BCEAO) — 24 rates. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-27 by Central Bank of West African States (BCEAO) — 27 rates. Updated 2026-10-28.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
+| AED | XOF | reference | 160.191 |
 | AUD | XOF | reference | 413.7 |
 | BRL | XOF | reference | 110.02 |
 | CAD | XOF | reference | 419.52 |
@@ -66,9 +67,11 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 | INR | XOF | reference | 6.18 |
 | JPY | XOF | reference | 3.7277 |
 | KRW | XOF | reference | 0.44 |
+| KWD | XOF | reference | 1909.147 |
 | NOK | XOF | reference | 63.14 |
 | NZD | XOF | reference | 335.49 |
 | PLN | XOF | reference | 149.01 |
+| SAR | XOF | reference | 156.88 |
 | SEK | XOF | reference | 59.2 |
 | SGD | XOF | reference | 459.19 |
 | THB | XOF | reference | 17.42 |
