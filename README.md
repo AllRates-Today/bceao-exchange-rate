@@ -32,35 +32,37 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-09 by Central Bank of West African States (BCEAO) — 25 rates. Updated 2026-11-10.</summary>
+<summary>Table as text: published 2026-11-10 by Central Bank of West African States (BCEAO) — 27 rates. Updated 2026-11-10.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | XOF | reference | 404.01 |
-| BRL | XOF | reference | 106.23 |
-| CAD | XOF | reference | 415.56 |
-| CHF | XOF | reference | 715.8 |
-| CNY | XOF | reference | 87.83 |
-| CZK | XOF | reference | 26.92 |
+| AED | XOF | reference | 159.277 |
+| AUD | XOF | reference | 403.81 |
+| BRL | XOF | reference | 105.36 |
+| CAD | XOF | reference | 413.8 |
+| CHF | XOF | reference | 712.76 |
+| CNY | XOF | reference | 87.69 |
+| CZK | XOF | reference | 26.95 |
 | DKK | XOF | reference | 87.75 |
 | EUR | XOF | reference | 655.957 |
-| GBP | XOF | reference | 786.24 |
-| HKD | XOF | reference | 74.73 |
+| GBP | XOF | reference | 785.15 |
+| HKD | XOF | reference | 74.56 |
 | HUF | XOF | reference | 1.81 |
-| ILS | XOF | reference | 184.83 |
-| INR | XOF | reference | 6.24 |
-| JPY | XOF | reference | 3.7104 |
+| ILS | XOF | reference | 184.74 |
+| INR | XOF | reference | 6.23 |
+| JPY | XOF | reference | 3.698 |
 | KRW | XOF | reference | 0.44 |
-| KWD | XOF | reference | 1901.189 |
-| NOK | XOF | reference | 62.28 |
-| NZD | XOF | reference | 328.95 |
-| PLN | XOF | reference | 149.61 |
-| SEK | XOF | reference | 59.65 |
-| SGD | XOF | reference | 457.81 |
-| THB | XOF | reference | 17.5 |
-| TRY | XOF | reference | 11.69 |
-| USD | XOF | reference | 586.04 |
-| ZAR | XOF | reference | 35.63 |
+| KWD | XOF | reference | 1899.175 |
+| NOK | XOF | reference | 61.79 |
+| NZD | XOF | reference | 329.21 |
+| PLN | XOF | reference | 149.52 |
+| SAR | XOF | reference | 155.986 |
+| SEK | XOF | reference | 59.68 |
+| SGD | XOF | reference | 457.59 |
+| THB | XOF | reference | 17.48 |
+| TRY | XOF | reference | 11.65 |
+| USD | XOF | reference | 584.94 |
+| ZAR | XOF | reference | 35.677 |
 
 </details>
 
