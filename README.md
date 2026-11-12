@@ -32,37 +32,34 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-11 by Central Bank of West African States (BCEAO) — 27 rates. Updated 2026-11-12.</summary>
+<summary>Table as text: published 2026-11-12 by Central Bank of West African States (BCEAO) — 24 rates. Updated 2026-11-12.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | XOF | reference | 160.522 |
-| AUD | XOF | reference | 404.36 |
-| BRL | XOF | reference | 106.1 |
-| CAD | XOF | reference | 414.14 |
-| CHF | XOF | reference | 710.37 |
-| CNY | XOF | reference | 88.37 |
+| AUD | XOF | reference | 403.77 |
+| BRL | XOF | reference | 105.39 |
+| CAD | XOF | reference | 415.45 |
+| CHF | XOF | reference | 710.53 |
+| CNY | XOF | reference | 88.77 |
 | CZK | XOF | reference | 26.91 |
 | DKK | XOF | reference | 87.75 |
 | EUR | XOF | reference | 655.957 |
-| GBP | XOF | reference | 784.47 |
-| HKD | XOF | reference | 75.14 |
+| GBP | XOF | reference | 784.68 |
+| HKD | XOF | reference | 75.46 |
 | HUF | XOF | reference | 1.8 |
-| ILS | XOF | reference | 185.88 |
+| ILS | XOF | reference | 184.8 |
 | INR | XOF | reference | 6.29 |
-| JPY | XOF | reference | 3.7022 |
+| JPY | XOF | reference | 3.7068 |
 | KRW | XOF | reference | 0.44 |
-| KWD | XOF | reference | 1912.467 |
-| NOK | XOF | reference | 61.8 |
-| NZD | XOF | reference | 329.16 |
-| PLN | XOF | reference | 148.95 |
-| SAR | XOF | reference | 157.205 |
-| SEK | XOF | reference | 59.36 |
-| SGD | XOF | reference | 459.64 |
-| THB | XOF | reference | 17.5 |
-| TRY | XOF | reference | 11.74 |
-| USD | XOF | reference | 589.52 |
-| ZAR | XOF | reference | 35.59 |
+| NOK | XOF | reference | 62.1 |
+| NZD | XOF | reference | 328.93 |
+| PLN | XOF | reference | 148.78 |
+| SEK | XOF | reference | 59.29 |
+| SGD | XOF | reference | 460.35 |
+| THB | XOF | reference | 17.51 |
+| TRY | XOF | reference | 11.78 |
+| USD | XOF | reference | 591.97 |
+| ZAR | XOF | reference | 35.415 |
 
 </details>
 
