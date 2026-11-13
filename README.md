@@ -32,34 +32,34 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-12 by Central Bank of West African States (BCEAO) — 24 rates. Updated 2026-11-12.</summary>
+<summary>Table as text: published 2026-11-13 by Central Bank of West African States (BCEAO) — 24 rates. Updated 2026-11-13.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | XOF | reference | 403.77 |
-| BRL | XOF | reference | 105.39 |
-| CAD | XOF | reference | 415.45 |
-| CHF | XOF | reference | 710.53 |
-| CNY | XOF | reference | 88.77 |
-| CZK | XOF | reference | 26.91 |
+| AUD | XOF | reference | 402.72 |
+| BRL | XOF | reference | 104.79 |
+| CAD | XOF | reference | 416.27 |
+| CHF | XOF | reference | 707.92 |
+| CNY | XOF | reference | 88.96 |
+| CZK | XOF | reference | 26.86 |
 | DKK | XOF | reference | 87.75 |
 | EUR | XOF | reference | 655.957 |
-| GBP | XOF | reference | 784.68 |
-| HKD | XOF | reference | 75.46 |
-| HUF | XOF | reference | 1.8 |
-| ILS | XOF | reference | 184.8 |
-| INR | XOF | reference | 6.29 |
-| JPY | XOF | reference | 3.7068 |
+| GBP | XOF | reference | 785.02 |
+| HKD | XOF | reference | 75.65 |
+| HUF | XOF | reference | 1.79 |
+| ILS | XOF | reference | 184.85 |
+| INR | XOF | reference | 6.3 |
+| JPY | XOF | reference | 3.7095 |
 | KRW | XOF | reference | 0.44 |
-| NOK | XOF | reference | 62.1 |
-| NZD | XOF | reference | 328.93 |
-| PLN | XOF | reference | 148.78 |
-| SEK | XOF | reference | 59.29 |
-| SGD | XOF | reference | 460.35 |
-| THB | XOF | reference | 17.51 |
+| NOK | XOF | reference | 62.06 |
+| NZD | XOF | reference | 328.34 |
+| PLN | XOF | reference | 148.7 |
+| SEK | XOF | reference | 59.06 |
+| SGD | XOF | reference | 460.77 |
+| THB | XOF | reference | 17.5 |
 | TRY | XOF | reference | 11.78 |
-| USD | XOF | reference | 591.97 |
-| ZAR | XOF | reference | 35.415 |
+| USD | XOF | reference | 593.52 |
+| ZAR | XOF | reference | 34.988 |
 
 </details>
 
