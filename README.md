@@ -32,34 +32,34 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-26 by Central Bank of West African States (BCEAO) — 24 rates. Updated 2026-11-27.</summary>
+<summary>Table as text: published 2026-11-27 by Central Bank of West African States (BCEAO) — 24 rates. Updated 2026-11-28.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | XOF | reference | 396.59 |
-| BRL | XOF | reference | 103.67 |
-| CAD | XOF | reference | 420.03 |
-| CHF | XOF | reference | 716.66 |
-| CNY | XOF | reference | 89.74 |
-| CZK | XOF | reference | 26.83 |
+| AUD | XOF | reference | 399.22 |
+| BRL | XOF | reference | 108.88 |
+| CAD | XOF | reference | 420.27 |
+| CHF | XOF | reference | 716.34 |
+| CNY | XOF | reference | 89.97 |
+| CZK | XOF | reference | 26.84 |
 | DKK | XOF | reference | 87.77 |
 | EUR | XOF | reference | 655.957 |
-| GBP | XOF | reference | 783.19 |
-| HKD | XOF | reference | 76.26 |
-| HUF | XOF | reference | 1.76 |
-| ILS | XOF | reference | 179.63 |
-| INR | XOF | reference | 6.46 |
-| JPY | XOF | reference | 3.7528 |
-| KRW | XOF | reference | 0.44 |
-| NOK | XOF | reference | 61.2 |
-| NZD | XOF | reference | 327.44 |
-| PLN | XOF | reference | 146.29 |
-| SEK | XOF | reference | 58.55 |
-| SGD | XOF | reference | 463.15 |
-| THB | XOF | reference | 17.55 |
+| GBP | XOF | reference | 785.54 |
+| HKD | XOF | reference | 76.48 |
+| HUF | XOF | reference | 1.77 |
+| ILS | XOF | reference | 180.9 |
+| INR | XOF | reference | 6.44 |
+| JPY | XOF | reference | 3.7524 |
+| KRW | XOF | reference | 0.45 |
+| NOK | XOF | reference | 61.39 |
+| NZD | XOF | reference | 328.14 |
+| PLN | XOF | reference | 146.82 |
+| SEK | XOF | reference | 58.53 |
+| SGD | XOF | reference | 464.16 |
+| THB | XOF | reference | 17.64 |
 | TRY | XOF | reference | 11.79 |
-| USD | XOF | reference | 597.68 |
-| ZAR | XOF | reference | 34.05 |
+| USD | XOF | reference | 598.66 |
+| ZAR | XOF | reference | 34.533 |
 
 </details>
 
